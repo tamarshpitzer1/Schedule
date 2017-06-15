@@ -1,0 +1,55 @@
+﻿<!doctype html>
+<html>
+<head>
+    <title>angular-react hello example</title>
+
+
+    <link href="Style/LoginStyle1.css" rel="stylesheet" />
+
+    <meta name="NetsparkQuiltingResult" total-length="2364" removed="0" rules-found="w3301,w2852,w6839,w5477,w5478,w3497,w2144" />
+</head>
+<body ng-app="app" ng-controller="mainCtrl">
+
+    <div class="content">
+
+        <div class="header" style="background-color: orange">
+
+            <react-component id="username2" name="Hello" props="person" />
+            <small>
+                <code>&lt;react-component name="Hello" props="person"/&gt;</code>
+            </small>
+
+            <div><hello fname="person.fname" /></div>
+            <small>
+                <code>&lt;hello fname="person.fname" lname="person.pass"/&gt;</code>
+            </small>
+
+        </div>
+
+        <form id="login" action="none">
+            <h1 id="ff-proof" class="ribbon">&nbsp;&nbsp;</h1>
+            <div class="apple">
+                <div class="top"><span></span></div>
+                <div class="butt"><span></span></div>
+                <div class="bite"></div>
+            </div>
+            <fieldset id="inputs">
+                <input id="username" ng-model="person.fname" type="text" placeholder="name" />
+                <input id="password" ng-model="person.pass" type="password" placeholder="password" />
+            </fieldset>
+            <fieldset id="actions">
+                <input type="button" id="submit" ng-click="cheak()" value="connection" />
+
+            </fieldset>
+        </form>
+    </div>
+    <script src="Scripts/Libraries/angular.js"></script>
+    <script src="Scripts/Libraries/react.js"></script>
+    <script src="Scripts/Libraries/react-dom.js"></script>
+    <script src="Scripts/Libraries/ngReact.js"></script>
+    <script src="Scripts/Controllers/loginCtrl.js"></script>
+
+
+
+</body>
+</html>

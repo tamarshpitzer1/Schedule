@@ -1,0 +1,14 @@
+﻿[
+  {
+    "outputFile": "Style/StyleSheete.css",
+    "inputFile": "Style/StyleSheete.scss"
+  },
+  {
+    "outputFile": "Style/LoginStyle.css",
+    "inputFile": "Style/LoginStyle.scss"
+  },
+  {
+    "outputFile": "Style/LoginStyle1.css",
+    "inputFile": "Style/LoginStyle1.scss"
+  }
+]
